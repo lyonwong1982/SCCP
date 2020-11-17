@@ -1,0 +1,5 @@
+interval=1000
+maxTxnNumber=100000
+maxNodeNumber=40
+threadNumber=90
+ftr=50
