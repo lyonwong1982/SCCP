@@ -131,7 +131,8 @@ public class Reportor {
 //			String header = "Time(ms),Time(s),concurrency";
 			String fileName = "N_" + Parameters.maxNodeNumber +
 					"_Tx_" + Parameters.maxTxnNumber + 
-					"_Th_" + Parameters.threadNumber +
+					"_Th_" + Parameters.threadNumber + 
+					"_ftr_" + Parameters.ftr +
 					"_Time_" + System.currentTimeMillis();
 			System.out.println(text);
 //			report(fileName, text);
